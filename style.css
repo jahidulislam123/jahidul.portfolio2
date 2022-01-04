@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 150px;
+
+
+}
+
+.top.berner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.width-deep {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.width-deep img {
+    width: 80%;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.click-button {
+    background-image: linear-gradient(#F97A60, #FFA500);
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}

@@ -8,17 +8,23 @@ h1 {
     font-size: 50px;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 
 
 }
 
-.top.berner {
+.top-berner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .width-deep {
@@ -41,4 +47,35 @@ section {
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+
+.experiences-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 37px;
+}
+
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+
+#full-stack-developer {
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+
+
+}
+
+footer p {
+    text-align: center;
 }
